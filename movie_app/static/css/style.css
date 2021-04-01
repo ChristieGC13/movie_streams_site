@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Roboto&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.heading {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    background: linear-gradient(
+    180deg,
+    rgba(163, 188, 235, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+    );
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.container {
+    padding: 30px;
+}
+
+.error {
+    color: crimson;
+    font-size: small;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.under {
+    z-index: -1;
+}
+
+.over {
+    position: relative;
+    top: 100px;
+    right: -75px;
+    z-index: 1;
+}
+
+#search_img {
+    height: 500px;
+    width: 600px;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.search {
+    position: relative;
+    left: -350px;
+    z-index: 1;
+}
+
+#movies_watched {
+    min-height: 300px;
+}
+
+#streaming_services {
+    height: 200px;
+}
+
+#streaming_services img {
+    margin: 15px;
+    height: 50px;
+    width: 60px;
+}
+
+.results{
+    height: 500px;
+}
+
+.title_poster {
+    background-color: cornsilk;
+    width: 450px;
+    height: 600px;
+}
